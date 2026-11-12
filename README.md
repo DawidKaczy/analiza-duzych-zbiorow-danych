@@ -10,6 +10,7 @@ Materiały z laboratoriów: notebooki, skrypty i małe pliki przykładowe.
 - `lab_02` — wprowadzenie do Daska
 - `lab_03` — Dask bags, delayed i futures oraz lokalny klaster
 - `lab_04` — Dask w Machine Learning (`dask-ml`, `joblib`, `xgboost.dask`)
+- `lab_05` — wstęp do Apache Spark / PySpark (lokalnie lub Docker)
 
 ## Środowisko
 
