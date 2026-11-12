@@ -12,16 +12,31 @@ Materiały z laboratoriów: notebooki, skrypty i małe pliki przykładowe.
 - `lab_04` — Dask w Machine Learning (`dask-ml`, `joblib`, `xgboost.dask`)
 - `lab_05` — wstęp do Apache Spark / PySpark (lokalnie lub Docker)
 
-## Środowisko
+## Środowiska
 
-Python 3.14. Zależności z aktualnego środowiska wirtualnego:
+Każdy lab ma własny `requirements.txt`. Lab 05 używa **osobnego** venv (Python 3.11), bo PySpark 4 nie idzie dobrze z Pythonem 3.14.
+
+### Laby 1–4 (Dask / pandas) — Python 3.14
 
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
-pip install -r requirements.txt
+pip install -r lab_01/requirements.txt
+pip install -r lab_02/requirements.txt
+pip install -r lab_03/requirements.txt
+pip install -r lab_04/requirements.txt
 ```
 
-Notebook z laboratorium 2 importuje też `dask` i `psutil`. Tych pakietów nie ma jeszcze w `requirements.txt`, bo nie są zainstalowane w `.venv`.
+Możesz instalować tylko wybrane laby.
 
-Duże pliki CSV i Parquet (Instagram, rozszerzone zamówienia, części podziału) są w `.gitignore`. Zostają lokalnie i nie wchodzą do repozytorium.
+### Lab 5 (PySpark) — Python 3.11 + Java 17/21
+
+```bash
+py -3.11 -m venv .venv_spark
+.\.venv_spark\Scripts\Activate.ps1
+pip install -r lab_05/requirements.txt
+```
+
+Szczegóły uruchomienia (lokalnie / Docker): `lab_05/readme.md`.
+
+Duże pliki CSV i Parquet są w `.gitignore`. Zostają lokalnie i nie wchodzą do repozytorium.
