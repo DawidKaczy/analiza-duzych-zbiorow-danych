@@ -12,6 +12,7 @@ Materiały z laboratoriów: notebooki, skrypty i małe pliki przykładowe.
 - `lab_04` — Dask w Machine Learning (`dask-ml`, `joblib`, `xgboost.dask`)
 - `lab_05` — wstęp do Apache Spark / PySpark (lokalnie lub Docker)
 - `lab_06` — PySpark DataFrames (CSV, agregacje, Parquet)
+- `projekt_inspiracje_2026.md` — inspiracje do projektu zaliczeniowego
 
 ## Środowiska
 

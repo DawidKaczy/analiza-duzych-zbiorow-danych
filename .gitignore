@@ -20,3 +20,7 @@ lab_01/csv_parts/*.csv
 lab_01/data/*.csv
 lab_06/employee_1m.csv
 lab_06/data/
+
+# Artefakty lokalne / cache danych z ćwiczeń
+/data/
+lab_04/data/

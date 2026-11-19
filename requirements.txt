@@ -6,7 +6,8 @@
 #   pip install -r lab_03/requirements.txt
 #   pip install -r lab_04/requirements.txt
 #
-# Lab 05 (PySpark) wymaga osobnego venv z Pythonem 3.11:
+# Lab 05–06 (PySpark) wymagają osobnego venv z Pythonem 3.11:
 #   py -3.11 -m venv .venv_spark
 #   .\.venv_spark\Scripts\activate
 #   pip install -r lab_05/requirements.txt
+#   pip install -r lab_06/requirements.txt

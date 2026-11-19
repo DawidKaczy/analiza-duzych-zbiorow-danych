@@ -1,0 +1,4 @@
+# Lab 06 korzysta ze środowiska lab_05 (Python 3.11 + PySpark).
+# Najpierw: pip install -r lab_05/requirements.txt
+numpy>=1.26.0
+tqdm>=4.66.0
