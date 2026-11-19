@@ -8,9 +8,15 @@ Thumbs.db
 .env
 .env.*
 
+# Winutils pobierany lokalnie pod zapis Parquet na Windowsie.
+lab_06/hadoop/
+
 # Duże zbiory danych (ok. 5 GB) — poza repozytorium.
 *.parquet
+*.crc
 lab_01/instagram.csv
 lab_01/zamowienia_expanded.csv
 lab_01/csv_parts/*.csv
 lab_01/data/*.csv
+lab_06/employee_1m.csv
+lab_06/data/

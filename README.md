@@ -11,6 +11,7 @@ Materiały z laboratoriów: notebooki, skrypty i małe pliki przykładowe.
 - `lab_03` — Dask bags, delayed i futures oraz lokalny klaster
 - `lab_04` — Dask w Machine Learning (`dask-ml`, `joblib`, `xgboost.dask`)
 - `lab_05` — wstęp do Apache Spark / PySpark (lokalnie lub Docker)
+- `lab_06` — PySpark DataFrames (CSV, agregacje, Parquet)
 
 ## Środowiska
 
@@ -38,5 +39,13 @@ pip install -r lab_05/requirements.txt
 ```
 
 Szczegóły uruchomienia (lokalnie / Docker): `lab_05/readme.md`.
+
+Lab 6 korzysta z tego samego środowiska. Dodatkowo:
+
+```bash
+pip install numpy tqdm
+```
+
+Notatnik: `lab_06/02_pyspark_dataframes.ipynb`. Opis: `lab_06/readme.md`.
 
 Duże pliki CSV i Parquet są w `.gitignore`. Zostają lokalnie i nie wchodzą do repozytorium.
