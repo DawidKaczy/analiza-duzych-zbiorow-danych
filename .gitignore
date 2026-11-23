@@ -24,3 +24,8 @@ lab_06/data/
 # Artefakty lokalne / cache danych z ćwiczeń
 /data/
 lab_04/data/
+
+# Lab 07 — generowane lakehouse / warehouse Delta
+/lakehouse_data/
+lab_07/lakehouse_data/
+lab_07/spark-warehouse/
